@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3c3c3c;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  background-color: #ddd;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.quote {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.author {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #eee;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #ddd;
+}
